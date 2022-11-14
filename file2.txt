@@ -1,0 +1,2 @@
+some updates file2.txt
+from user2
