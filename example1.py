@@ -8,6 +8,7 @@ from time import sleep
 
 driver = webdriver.Chrome("D:\skillfactory\repo3\repo3\chromedriver.exe")
 driver.get("https://google.com")
+sleep(5)
 driver.find_element(By.XPATH, "//input[@title=\"Поиск\"]").send_keys('Skillfactory' + Keys.RETURN)
 
 sleep(2)
